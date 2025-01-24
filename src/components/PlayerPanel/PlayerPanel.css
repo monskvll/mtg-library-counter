@@ -4,13 +4,12 @@
     align-items: center;
     color: white;
     border: 5px solid #232323;    
-    flex: 1 1 calc(50% - 30px);
-    gap: 30px;
+    flex: 1 1 calc(50% - 30px);    
     border-style: inset;
 }
 
 .numberOfCardsLabel {
-    font-size: 5rem;
+    font-size: 3rem;
     width: 150px;
     text-align: center;
 }

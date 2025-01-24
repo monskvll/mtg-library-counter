@@ -3,8 +3,9 @@ body {
 }
 
 .playerPanelsWrapper {
-    display: flex;
-    flex-wrap: wrap;    
-    width: 100vw;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
     height: 100vh;
+    
 }

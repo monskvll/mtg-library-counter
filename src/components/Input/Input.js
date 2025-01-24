@@ -19,7 +19,10 @@ const Input = ({ onSubmit }) => {
 			className="inputForm"
 			onSubmit={handleSubmit}
 		>
-			<label htmlFor="playersInput">
+			<label
+				className="inputLabel"
+				htmlFor="playersInput"
+			>
 				Enter the number of players (1-10):
 			</label>
 			<input
@@ -31,7 +34,12 @@ const Input = ({ onSubmit }) => {
 				onChange={handleChange}
 				value={numberOfPlayers}
 			/>
-			<button type="submit">Let's go!</button>
+			<button
+				className="submitButton"
+				type="submit"
+			>
+				Let's go!
+			</button>
 		</form>
 	);
 };
