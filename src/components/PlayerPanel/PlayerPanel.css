@@ -1,0 +1,20 @@
+.playerPanelWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 5px solid #232323;    
+    flex: 1 1 calc(50% - 30px);
+    gap: 30px;
+    border-style: inset;
+}
+
+.numberOfCardsLabel {
+    font-size: 5rem;
+    width: 150px;
+    text-align: center;
+}
+
+.numberOfCardsZero {
+    color: rgb(201, 0, 0);
+}
