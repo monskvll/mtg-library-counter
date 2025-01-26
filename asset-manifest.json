@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mtg-library-counter/static/css/main.1428ec13.css",
-    "main.js": "/mtg-library-counter/static/js/main.3c3f914c.js",
+    "main.css": "/mtg-library-counter/static/css/main.2e4debdf.css",
+    "main.js": "/mtg-library-counter/static/js/main.3133d8ae.js",
     "static/js/488.af6caeba.chunk.js": "/mtg-library-counter/static/js/488.af6caeba.chunk.js",
     "index.html": "/mtg-library-counter/index.html",
-    "main.1428ec13.css.map": "/mtg-library-counter/static/css/main.1428ec13.css.map",
-    "main.3c3f914c.js.map": "/mtg-library-counter/static/js/main.3c3f914c.js.map",
+    "main.2e4debdf.css.map": "/mtg-library-counter/static/css/main.2e4debdf.css.map",
+    "main.3133d8ae.js.map": "/mtg-library-counter/static/js/main.3133d8ae.js.map",
     "488.af6caeba.chunk.js.map": "/mtg-library-counter/static/js/488.af6caeba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1428ec13.css",
-    "static/js/main.3c3f914c.js"
+    "static/css/main.2e4debdf.css",
+    "static/js/main.3133d8ae.js"
   ]
 }
