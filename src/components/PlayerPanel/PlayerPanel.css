@@ -4,8 +4,8 @@
     align-items: center;
     color: white;
     border: 5px solid #232323;    
-    flex: 1 1 calc(50% - 30px);    
-    border-style: inset;
+    flex: 1 1 calc(50% - 30px);
+    gap: 10px; 
 }
 
 .numberOfCardsLabel {

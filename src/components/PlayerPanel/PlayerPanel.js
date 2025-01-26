@@ -7,33 +7,40 @@ import "./PlayerPanel.css";
 const PlayerPanel = () => {
 	const [numberOfCards, setNumberOfCards] = useState(99);
 
-	const handlePlusClick = () => {
-		setNumberOfCards((previousValue) => previousValue + 1);
+	const libraryOutOfCards = numberOfCards <= 0;
+
+	const handlePlusClick = (amount) => {
+		setNumberOfCards((previousValue) => previousValue + amount);
 	};
 
-	const handleMinusClick = () => {
-		if (numberOfCards <= 0) {
-			return;
-		}
-		setNumberOfCards((previousValue) => previousValue - 1);
+	const handleMinusClick = (amount) => {
+		setNumberOfCards((previousValue) => previousValue - amount);
 	};
 
 	return (
 		<div className="playerPanelWrapper">
 			<CounterButton
-				content="+"
-				onClick={handlePlusClick}
+				content="+5"
+				onClick={() => handlePlusClick(5)}
+			/>
+			<CounterButton
+				content="+1"
+				onClick={() => handlePlusClick(1)}
 			/>
 			<p
 				className={`numberOfCardsLabel ${
-					!numberOfCards ? "numberOfCardsZero" : ""
+					libraryOutOfCards ? "numberOfCardsZero" : ""
 				}`}
 			>
 				{numberOfCards}
 			</p>
 			<CounterButton
-				content="-"
-				onClick={handleMinusClick}
+				content="-1"
+				onClick={() => handleMinusClick(1)}
+			/>
+			<CounterButton
+				content="-5"
+				onClick={() => handleMinusClick(5)}
 			/>
 		</div>
 	);

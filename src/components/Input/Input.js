@@ -3,7 +3,7 @@ import { useState } from "react";
 import "./Input.css";
 
 const Input = ({ onSubmit }) => {
-	const [numberOfPlayers, setNumberOfPlayers] = useState(1);
+	const [numberOfPlayers, setNumberOfPlayers] = useState(4);
 
 	const handleChange = (e) => {
 		setNumberOfPlayers(e.target.value);
