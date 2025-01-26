@@ -1,16 +1,18 @@
 .playerPanelWrapper {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
     border: 5px solid #232323;    
     flex: 1 1 calc(50% - 30px);
-    gap: 10px; 
+    gap: 10px;
 }
 
 .numberOfCardsLabel {
     font-size: 3rem;
     width: 150px;
+    margin: 0;
     text-align: center;
 }
 
